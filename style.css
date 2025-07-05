@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff0f5;
+    max-width: 500px;
+    margin: auto;
+}
+
+h1 {
+    color: #e84393;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    padding: 8px;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #e84393;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.result {
+    margin-top: 25px;
+    font-size: 20px;
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}

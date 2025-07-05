@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính số cốc Mixue</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form id="cupForm">
+        <div class="Ban">
+            <h1>Bán</h1>
+            <label for="tS">Trà sữa:</label>
+            <input type="number" id="tS" min="0" value="0">
+
+            <label for="tHQ">Trà hoa quả:</label>
+            <input type="number" id="tHQ" min="0" value="0">
+
+            <label for="kem">kem:</label>
+            <input type="number" id="kem" min="0" value="0">
+
+            <label for="oC">Ốc quế:</label>
+            <input type="number" id="oC" min="0" value="0">
+
+            <label for="dC">Dương chi cam lộ:</label>
+            <input type="number" id="dC" min="0" value="0">
+
+            <label for="cafe">Cafe:</label>
+            <input type="number" id="cafe" min="0" value="0">
+
+            <label for="bV">Bá vương:</label>
+            <input type="number" id="bV" min="0" value="0">
+
+            <label for="sL">Size L:</label>
+            <input type="number" id="sL" min="0" value="0">
+        </div>
+
+        <div class="hqua">
+            <h1>Hôm qua</h1>
+            <table>
+
+            <tr>
+                <td>X</td>
+                <td>Thùng</td>
+                <td>Dây</td>
+                <td>Cốc</td>
+            </tr>
+
+            <tr>
+                <td>Ốc quế</td>
+                <td><input type="number" id="tOC1" min="0" value="0"></td>
+                <td><input type="number" id="dOC1" min="0" value="0"></td>
+                <td><input type="number" id="cOC1" min="0" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>500</td>
+                <td><input type="number" id="t5001" min="0" value="0"></td>
+                <td><input type="number" id="d5001" min="0" value="0"></td>
+                <td><input type="number" id="c5001" min="0" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>700</td>
+                <td><input type="number" id="t7001" min="0" value="0"></td>
+                <td><input type="number" id="d7001" min="0" value="0"></td>
+                <td><input type="number" id="c7001" min="0" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>400</td>
+                <td><input type="number" id="t4001" min="0" value="0"></td>
+                <td><input type="number" id="d4001" min="0" value="0"></td>
+                <td><input type="number" id="c4001" min="0" value="0"></td>
+            </tr>
+
+            </table>
+        </div>
+
+        <div class="hnay">
+            <h1>Hôm nay</h1>
+            <table>
+
+            <tr>
+                <td>X</td>
+                <td>Thùng</td>
+                <td>Dây</td>
+                <td>Cốc</td>
+            </tr>
+
+            <tr>
+                <td>Ốc quế</td>
+                <td><input type="number" id="tOC2" min="0" value="0"></td>
+                <td><input type="number" id="dOC2" min="0" value="0"></td>
+                <td><input type="number" id="cOC2" min="0" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>500</td>
+                <td><input type="number" id="t5002" min="0" value="0"></td>
+                <td><input type="number" id="d5002" min="0" value="0"></td>
+                <td><input type="number" id="c5002" min="0" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>700</td>
+                <td><input type="number" id="t7002" min="0" value="0"></td>
+                <td><input type="number" id="d7002" min="0" value="0"></td>
+                <td><input type="number" id="c7002" min="0" value="0"></td>
+            </tr>
+
+            <tr>
+                <td>400</td>
+                <td><input type="number" id="t4002" min="0" value="0"></td>
+                <td><input type="number" id="d4002" min="0" value="0"></td>
+                <td><input type="number" id="c4002" min="0" value="0"></td>
+            </tr>
+
+            </table>
+        </div>
+
+        <div class="AMDUONG">
+                <h1>ÂM DƯƠNG</h1>
+            <table>
+
+            <tr>
+                <td>X</td>
+                <td>dùng</td>
+                <td>Bán</td>
+                <td>Lệch</td>
+            </tr>
+
+            <tr>
+                <td>Ốc quế</td>
+                <td><output id="sLOC"></output></td>
+                <td><output id="bOC"></output></td>
+                <td><output id="lOC"></output></td>
+                
+            </tr>
+
+            <tr>
+                <td>500</td>
+                <td><output id="s500"></output></td>
+                <td><output id="b500"></output></td>
+                <td><output id="l500"></output></td>
+            </tr>
+
+            <tr>
+                <td>700</td>
+                <td><output id="sL700"></output></td>
+                <td><output id="b700"></output></td>
+                <td><output id="l700"></output></td>
+            </tr>
+
+            <tr>
+                <td>400</td>
+                <td><output id="s400"></output></td>
+                <td><output id="b400"></output></td>
+                <td><output id="l400"></output></td>
+            </tr>
+
+            </table>
+        </div>
+        
+
+        <button type="submit">Tính tổng số cốc</button>
+        <div class="result" id="resultText"></div>
+    </form>
+
+
+   
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -49,7 +49,7 @@ document.addEventListener("submit", function(e) {
 
     //Tính
         //bán
-            var b500 = ts - bV - sL + cafe + dC;
+            var b500 = tS - bV - sL + cafe + dC;
             var b700 = tHQ - dC + bV + sL;
             var b400 = kem - oC;
         //dùng

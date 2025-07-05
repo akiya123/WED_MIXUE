@@ -56,7 +56,7 @@ document.addEventListener("submit", function(e) {
             var d500 = (t5001 - t5002) * 20 * 50 + (d5001 - d5002) * 50 + c5001 - c5002 ;
             var d700 = (t7001 - t7002) * 20 * 50 + (d7001 - d7002) * 50 + c7001 - c4002 ;
             var d400 = (t4001 - t4002) * 20 * 50 + (d4001 - d4002) * 50 + c4001 - c7002 ;
-            var dOC = (tOC1 - tOC2) * 16 * 25 + (dOC1 - dOC2) * 25 + dOC1 - dOC2;
+            var dOC = (tOC1 - tOC2) * 16 * 25 + (dOC1 - dOC2) * 25 + cOC1 - cOC2;
 
     //Âm dương
     document.getElementById("sLOC").value = dOC;

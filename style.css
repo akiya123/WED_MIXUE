@@ -1,11 +1,19 @@
 body {
     font-family: Arial, sans-serif;
+    background-image: url('sungji.jpg');
     background-color: #fff0f5;
     max-width: 500px;
     margin: auto;
 }
-
+label, h1 {
+    color: #e84393;
+}
 h1 {
+    color: #e84393;
+    text-align: center;
+}
+
+td{
     color: #e84393;
     text-align: center;
 }
@@ -21,6 +29,7 @@ input[type="number"] {
     width: 100%;
     font-size: 16px;
     margin-top: 5px;
+    
 }
 
 button {

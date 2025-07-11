@@ -6,7 +6,9 @@ document.addEventListener("submit", function(e) {
             var tS = parseInt(document.getElementById("tS").value) || 0;
             var tHQ = parseInt(document.getElementById("tHQ").value) || 0;
             var kem = parseInt(document.getElementById("kem").value) || 0;
-            var oC = parseInt(document.getElementById("oC").value) || 0;
+            var oC1 = parseInt(document.getElementById("oC1").value) || 0;
+            var oC2 = parseInt(document.getElementById("oC2").value) || 0;
+            var oC3 = parseInt(document.getElementById("oC3").value) || 0;
             var dC = parseInt(document.getElementById("dC").value) || 0;
             var cafe = parseInt(document.getElementById("cafe").value) || 0;
             var bV = parseInt(document.getElementById("bV").value) || 0;
@@ -48,6 +50,7 @@ document.addEventListener("submit", function(e) {
 
 
     //Tính
+        var oC = oC1 + oC2 + oC3;
         //bán
             var b500 = tS - bV - sL + cafe + dC;
             var b700 = tHQ - dC + bV + sL;
